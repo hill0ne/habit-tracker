@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Habit from "./habit";
 import HabitAddForm from "./habitAddForm";
+import ResetAll from "./resetAll";
 
 class Habits extends Component {
   handleIncrement = (habit) => {
@@ -19,6 +20,10 @@ class Habits extends Component {
     this.props.onAdd(name);
   };
 
+  handleReset = () => {
+    this.props.onReset();
+  };
+
   render() {
     return (
       <>
@@ -34,6 +39,7 @@ class Habits extends Component {
             />
           ))}
         </ul>
+        <ResetAll onReset={this.handleReset} />
       </>
     );
   }

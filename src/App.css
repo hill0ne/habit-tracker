@@ -90,3 +90,11 @@ button {
   color: darkred;
   font-size: 1.7rem;
 }
+
+.reset-button {
+  font-size: 1.5rem;
+  margin: 1em 0.5em;
+  padding: 0.3em 0.5em;
+  background-color: green;
+  color: white;
+}
