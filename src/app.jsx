@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./app.css";
 import Habits from "./components/habits";
 import Navbar from "./components/navbar";
-import ResetAll from "./components/resetAll";
 
 class App extends Component {
   state = {

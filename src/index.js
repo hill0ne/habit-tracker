@@ -7,7 +7,8 @@ import SimpleHabit from "./components/simpleHabit";
 
 ReactDOM.render(
   <React.StrictMode>
-    <SimpleHabit />
+    <App />
+    {/* <SimpleHabit /> */}
   </React.StrictMode>,
   document.getElementById("root")
 );
